@@ -43,12 +43,12 @@ At the moment, you'll need to force the Metro versions in your `package.json`:
 }
 ```
 
-If you want to add TypeScript support to `require.context`, include the [`metroRequire.d.ts`](./metroRequire.d.ts), then extend the `tsconfig.json`:
+If you want to add TypeScript support to `require.context`, include the [`types/metroRequire.d.ts`](./types/metroRequire.d.ts), then extend the `tsconfig.json`:
 
 ```json
 {
-  "include": ["./metroRequire.d.ts"],
-  "extends": "expo/tsconfig.base"
+  "extends": "expo/tsconfig.base",
+  "include": ["./types/metroRequire"]
 }
 ```
 

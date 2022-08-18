@@ -1,5 +1,4 @@
 {
-  "compilerOptions": {},
   "extends": "expo/tsconfig.base",
-  "include": ["metroRequire.d.ts"]
+  "include": ["./types/metroRequire"]
 }
