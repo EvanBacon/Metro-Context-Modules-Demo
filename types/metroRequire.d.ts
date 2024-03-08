@@ -1,6 +1,9 @@
 // Based on https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/webpack-env/index.d.ts
 // Adds support for the runtime `require.context` method.
 // https://github.com/facebook/metro/pull/822/
+//
+// Separate file required until the types land in react-native itself:
+// https://github.com/facebook/react-native/pull/41421
 
 declare var module: NodeModule;
 
